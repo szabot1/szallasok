@@ -80,6 +80,7 @@ export default function Edit() {
                 name="name"
                 placeholder="Nev"
                 defaultValue={place.name}
+                required
                 className="w-full p-2 border-2 border-gray-200 rounded-md outline-none focus:border-blue-500 transition-colors duration-150"
               />
 
@@ -88,6 +89,7 @@ export default function Edit() {
                 name="hostname"
                 placeholder="Hostname"
                 defaultValue={place.hostname}
+                required
                 className="w-full p-2 border-2 border-gray-200 rounded-md outline-none focus:border-blue-500 transition-colors duration-150 mt-4"
               />
 
@@ -96,6 +98,7 @@ export default function Edit() {
                 name="location"
                 placeholder="Helyszin"
                 defaultValue={place.location}
+                required
                 className="w-full p-2 border-2 border-gray-200 rounded-md outline-none focus:border-blue-500 transition-colors duration-150 mt-4"
               />
 
@@ -104,6 +107,7 @@ export default function Edit() {
                 name="price"
                 placeholder="Ar"
                 defaultValue={place.price}
+                required
                 min="1"
                 className="w-full p-2 border-2 border-gray-200 rounded-md outline-none focus:border-blue-500 transition-colors duration-150 mt-4"
               />
@@ -113,6 +117,7 @@ export default function Edit() {
                 name="minimum_nights"
                 placeholder="Minimum ejszakak szama"
                 defaultValue={place.minimum_nights.split(" ")[0]}
+                required
                 min="1"
                 className="w-full p-2 border-2 border-gray-200 rounded-md outline-none focus:border-blue-500 transition-colors duration-150 mt-4"
               />

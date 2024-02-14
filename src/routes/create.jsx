@@ -60,6 +60,7 @@ export default function Edit() {
             type="text"
             name="name"
             placeholder="Nev"
+            required
             className="w-full p-2 border-2 border-gray-200 rounded-md outline-none focus:border-blue-500 transition-colors duration-150"
           />
 
@@ -67,6 +68,7 @@ export default function Edit() {
             type="text"
             name="hostname"
             placeholder="Hostname"
+            required
             className="w-full p-2 border-2 border-gray-200 rounded-md outline-none focus:border-blue-500 transition-colors duration-150 mt-4"
           />
 
@@ -74,6 +76,7 @@ export default function Edit() {
             type="text"
             name="location"
             placeholder="Helyszin"
+            required
             className="w-full p-2 border-2 border-gray-200 rounded-md outline-none focus:border-blue-500 transition-colors duration-150 mt-4"
           />
 
@@ -82,6 +85,7 @@ export default function Edit() {
             name="price"
             placeholder="Ar"
             min="1"
+            required
             className="w-full p-2 border-2 border-gray-200 rounded-md outline-none focus:border-blue-500 transition-colors duration-150 mt-4"
           />
 
@@ -90,6 +94,7 @@ export default function Edit() {
             name="minimum_nights"
             placeholder="Minimum ejszakak szama"
             min="1"
+            required
             className="w-full p-2 border-2 border-gray-200 rounded-md outline-none focus:border-blue-500 transition-colors duration-150 mt-4"
           />
 
