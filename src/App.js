@@ -44,6 +44,7 @@ export default function App() {
 export function isValid(place) {
   return (
     place.id &&
+    typeof place.id === "number" &&
     place.name &&
     place.location &&
     place.hostname &&
